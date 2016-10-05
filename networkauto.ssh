@@ -1,4 +1,8 @@
 #!/bin/bash
+
+#Este script foi feito por Fabricio e Luis Tonaiser
+#Este script tem por finalidade ativar o DHCP na maquina
+
 dhclient -v enp0s3 #comando para ativar DHCP
 whoami > /etc/hostname
 
